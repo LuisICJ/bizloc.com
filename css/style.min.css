@@ -26,7 +26,7 @@ h6,
   margin-top: 0; }
 
 a {
-  color: #ff00cc;
+  color: #cbe06e;
   transition: all .3s ease-in-out; }
 
 a:focus,
@@ -116,11 +116,11 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #ff00cc;
+    background: #cbe06e;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #333399, #cbe06e);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #333399, #cbe06e);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .jumbotron h1 {
     line-height: .9;
@@ -147,11 +147,11 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #ff00cc;
+    background: #444443;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #838382, #444443);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #838382, #444443);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .overlay.bg-white {
     color: #000; }
@@ -175,8 +175,8 @@ section {
 
 .btn-primary {
   display: inline-block;
-  background-color: #ff00cc;
-  border-color: #ff00cc;
+  background-color: #d0ff00;
+  border-color: #d0ff00;
   color: #fff; }
   .btn-primary:hover {
     background-color: #333399;
@@ -200,7 +200,7 @@ section {
   color: #000; }
 
 .btn-link {
-  color: #ff00cc; }
+  color: #cbe06e; }
 
 /*=====  End of BUTTON  ======*/
 /*==========================================
@@ -209,9 +209,9 @@ section {
 .rectangle-1 {
   width: 2000px;
   height: 400px;
-  background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: #444443;
+  background: -webkit-linear-gradient(to right, #838382, #444443);
+  background: linear-gradient(to right, #838382, #444443);
   transform-origin: 50% 150% 0;
   position: absolute;
   left: 0;
@@ -221,9 +221,9 @@ section {
 .rectangle-2 {
   width: 2000px;
   height: 400px;
-  background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: #444443;
+  background: -webkit-linear-gradient(to right, #838382, #444443);
+  background: linear-gradient(to right, #838382, #444443);
   transform-origin: 65% 100% 0;
   position: absolute;
   right: 0;
@@ -399,7 +399,7 @@ section {
     transform: translateY(-13px); }
 
 .progress-bar {
-  background-color: #ff00cc; }
+  background-color: #d9ff00; }
 
 /*=====  End of FEATURES  ======*/
 /*=============================
@@ -420,7 +420,7 @@ section {
   padding-bottom: 50px; }
 
 .testi-icon {
-  color: #ff00cc; }
+  color: #cbe06e; }
 
 .testi-content {
   margin-top: 80px;
@@ -444,7 +444,7 @@ section {
     height: 100%;
     outline: none;
     border-radius: 50%;
-    background-color: rgba(255, 0, 204, 0.3);
+    background-color: rgba(208, 255, 0, 0.3);
     text-indent: -999em;
     cursor: pointer;
     position: absolute;
@@ -453,7 +453,7 @@ section {
     transition: box-shadow 0.3s ease, background-color 0.3s ease; }
   .owl-dot.active > span {
     background-color: transparent;
-    box-shadow: 0 0 0 2px #ff00cc; }
+    box-shadow: 0 0 0 2px #cbe06e; }
 
 .owl-dots {
   position: absolute;
@@ -691,8 +691,8 @@ section {
 =            FORM CONTROL            =
 ====================================*/
 .form-control:focus {
-  border-color: #ff00cc;
-  box-shadow: 0 0 0 0.2rem rgba(253, 101, 90, 0.25); }
+  border-color: #cbe06e;
+  box-shadow: 0 0 0 0.2rem rgba(128, 253, 90, 0.25); }
 
 .form-control::-webkit-input-placeholder {
   opacity: .5; }
@@ -729,22 +729,22 @@ section {
     top: 0;
     height: auto;
     width: 100%;
-    background: #ff00cc;
+    background: #cbe06e;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #333399, #cbe06e);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #333399, #cbe06e);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11; }
   #header-navbar {
     padding-top: 15px !important;
     padding-bottom: 15px !important; }
   .navbar-transparent .navbar-collapse {
-    background: #ff00cc;
+    background: #cbe06e;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #333399, #cbe06e);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #333399, #cbe06e);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px; } }
 
