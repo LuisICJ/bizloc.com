@@ -1,0 +1,9 @@
+body{
+    overflow: hidden;
+}
+#flechaSubir{
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    width: 60px;
+}
