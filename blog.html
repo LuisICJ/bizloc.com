@@ -6,11 +6,13 @@
         - Roxy: Bootstrap template by GettTemplates.com
         - https://gettemplates.co/roxy
     -->
+    <title>BizLoc | Consultora en digitalización</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BizLoc</title>
-    <meta name="description" content="BizLoc">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Consultora sobre digitalización empresarial en Vitoria y Álava">
+    <meta name="keywords" content="erp, crm, bi, nas, bbdd, bd, base de datos, sistema operativo, servidor, hosting propio, on-premise, redes, lan, red local, sensorica, odoo, idempiere, ofbiz, power bi, pentaho, grafana">
+    <meta name="author" content="BizLoc">
 
     <!-- External CSS -->
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
@@ -30,420 +32,388 @@
 
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-
 </head>
 <body data-spy="scroll" data-target="#navbar" class="static-layout">
-	<div id="side-nav" class="sidenav">
-	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
-	
-	<div class="sidenav-content">
-		<p>
-			C/Las Escuelas 10, 01001
-		</p>
-		<p>
-			<span class="fs-16 primary-color">(+34) 660044551</span>
-		</p>
-		<p>info@bizloc.com</p>
-	</div>
-</div>	<div id="side-search" class="sidenav">
-	<a href="javascript:void(0)" id="side-search-close">&times;</a>
-	<div class="sidenav-content">
-		<form action="">
-
-			<div class="input-group md-form form-sm form-2 pl-0">
-			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
-			  <div class="input-group-append">
-			    <button class="input-group-text red lighten-3" id="basic-text1">
-			    	<span class="lnr lnr-magnifier"></span>
-			    </button>
-			  </div>
-			</div>
-
-		</form>
-	</div>
-	
-</div>	<nav id="header-navbar" class="navbar navbar-expand-lg py-4">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center text-white" href="/">
-            <h3 class="font-weight-bolder mb-0" id="arriba">BizLoc</h3>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="lnr lnr-menu"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-nav-header">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Sobrenosotros.html">Sobre nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a id="side-search-open" class="nav-link" href="#">
+    <nav id="header-navbar" class="navbar navbar-expand-lg py-4">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center text-white" href="/">
+                <h3 class="font-weight-bolder mb-0" id="arriba">BizLoc</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="lnr lnr-menu"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-nav-header">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Sobrenosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="side-search-open" class="nav-link" href="#">
+                            <span class="lnr lnr-magnifier"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item only-desktop">
+                        <a class="nav-link" id="side-nav-open" href="#">
+                            <span class="lnr lnr-menu"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="side-nav" class="sidenav">
+        <a href="javascript:void(0)" id="side-nav-close">&times;</a>
+        <div class="sidenav-content">
+            <p>
+                C/ Las Escuelas 10, 01001, Vitoria-Gasteiz
+            </p>
+            <p>
+                <span class="fs-16 primary-color">(+34) 660044551</span>
+            </p>
+            <p>info@bizloc.com</p>
+        </div>
+    </div>
+    <div id="side-search" class="sidenav">
+        <a href="javascript:void(0)" id="side-search-close">&times;</a>
+        <div class="sidenav-content">
+            <form action="">
+                <div class="input-group md-form form-sm form-2 pl-0">
+                <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+                <div class="input-group-append">
+                    <button class="input-group-text red lighten-3" id="basic-text1">
                         <span class="lnr lnr-magnifier"></span>
-                    </a>
-                </li>
-                 <li class="nav-item only-desktop">
-                    <a class="nav-link" id="side-nav-open" href="#">
-                        <span class="lnr lnr-menu"></span>
-                    </a>
-                </li>
-            </ul>
+                    </button>
+                </div>
+                </div>
+            </form>
         </div>
     </div>
-</nav>
-
-<div id="side-nav" class="sidenav">
-	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
-	
-	<div class="sidenav-content">
-		<p>
-			C/ Las Escuelas 10, 01001, Vitoria-Gasteiz
-		</p>
-		<p>
-			<span class="fs-16 primary-color">(+34) 660044551</span>
-		</p>
-		<p>info@bizloc.com</p>
-	</div>
-</div><div id="side-search" class="sidenav">
-	<a href="javascript:void(0)" id="side-search-close">&times;</a>
-	<div class="sidenav-content">
-		<form action="">
-
-			<div class="input-group md-form form-sm form-2 pl-0">
-			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
-			  <div class="input-group-append">
-			    <button class="input-group-text red lighten-3" id="basic-text1">
-			    	<span class="lnr lnr-magnifier"></span>
-			    </button>
-			  </div>
-			</div>
-
-		</form>
-	</div>
-	
-</div>	<div class="jumbotron jumbotron-single d-flex align-items-center" style="background-image: url(img/bg.jpg)">
-  <div class="container text-center">
-    <h1 class="display-2 mb-4">Blog</h1>
-  </div>
-</div>
-<!-- Blog Section -->
-<section id="blog" class="bg-grey">
-    <div class="container">
-        <div class="section-content">
-            <div class="title-wrap mb-5" data-aos="fade-up">
-                <h2 class="section-title">Últimas <b>noticias</b></h2>
-                <p class="section-sub-title">Mantente informado sobre el mundo de la digitalización de procesos empresariales</p>
+    <div class="jumbotron jumbotron-single d-flex align-items-center" style="background-image: url(img/bg.jpg)">
+        <div class="container text-center">
+            <h1 class="display-2 mb-4">Blog</h1>
+        </div>
+    </div>
+    <!-- Blog Section -->
+    <section id="blog" class="bg-grey">
+        <div class="container">
+            <div class="section-content">
+                <div class="title-wrap mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Últimas <b>noticias</b></h2>
+                    <p class="section-sub-title">Mantente informado sobre el mundo de la digitalización de procesos empresariales</p>
+                </div>
+                <div class="row">
+                    <!-- Blog -->
+                    <div class="col-md-12 blog-holder">
+                        <!-- Primera fila de posts -->
+                        <div class="row">
+                            <!-- Blog Item -->
+                            <div class="col-md-4 blog-item-wrapper" data-aos="fade-up">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <a href="posts/post1.html" target="_blank"><img src="img/nuestra-oficina.jpeg" alt=""></a>
+                                    </div>
+                                    <div class="blog-text">
+                                        <div class="blog-tag">
+                                            <a href="posts/post1.html" target="_blank"><h6><small>NOSOTROS</small></h6></a>
+                                        </div>
+                                        <div class="blog-title">
+                                            <a href="posts/post1.html" target="_blank"><h4>Fundamos BizLoc</h4></a>
+                                        </div>
+                                        <div class="blog-meta">
+                                            <p class="blog-date">14 Oct 2022</p> /
+                                            <p class="blog-comment"><a href="">3 comentarios</a></p>
+                                        </div>
+                                        <div class="blog-desc">
+                                            <p>Nos complace anunciar la fundación de una nueva empresa en Vitoria-Gasteiz: BizLoc, consultora en digitalización.</p>
+                                        </div>
+                                        <div class="blog-author">
+                                            <p>por Catalin</p>
+                                        </div>
+                                        <div class="blog-share-wrapper">
+                                            <a class="blog-share" href="https://es-es.facebook.com/" target="_blank">
+                                                <i class="fab fa-facebook-square"></i>
+                                            </a>
+                                            <a class="blog-share" href="https://twitter.com/?lang=es" target="_blank">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Blog Item -->
+                            <!-- Blog Item -->
+                            <div class="col-md-4 blog-item-wrapper" data-aos="fade-up" data-aos-delay="200">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <a href="posts/post2.html" target="_blank"><img src="img/redhat.jpg" alt=""></a>
+                                    </div>
+                                    <div class="blog-text">
+                                        <div class="blog-tag">
+                                            <a href="posts/post2.html" target="_blank"><h6><small>SISTEMAS</small></h6></a>
+                                        </div>
+                                        <div class="blog-title">
+                                            <a href="posts/post2.html" target="_blank"><h4>¿Linux DEB o RPM?</h4></a>
+                                        </div>
+                                        <div class="blog-meta">
+                                            <p class="blog-date">21 Oct 2022</p> /
+                                            <p class="blog-comment"><a href="">4 comentarios</a></p>
+                                        </div>
+                                        <div class="blog-desc">
+                                            <p>La subfamilia de sistemas operativos RPM es líder de mercado en algunos tipos de servidores. ¿Vale la pena cambiarse desde la subfamilia DEB?</p>
+                                        </div>
+                                        <div class="blog-author">
+                                            <p>por Omar</p>
+                                        </div>
+                                        <div class="blog-share-wrapper">
+                                            <a class="blog-share" href="https://es-es.facebook.com/" target="_blank">
+                                                <i class="fab fa-facebook-square"></i>
+                                            </a>
+                                            <a class="blog-share" href="https://twitter.com/?lang=es" target="_blank">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Blog Item -->
+                            <!-- Blog Item -->
+                            <div class="col-md-4 blog-item-wrapper" data-aos="fade-up" data-aos-delay="400">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <a href="posts/post3.html" target="_blank"><img src="img/odoo.jpg" alt=""></a>
+                                    </div>
+                                    <div class="blog-text">
+                                        <div class="blog-tag">
+                                            <a href="posts/post3.html" target="_blank"><h6><small>ERP & BI</small></h6></a>
+                                        </div>
+                                        <div class="blog-title">
+                                            <a href="posts/post3.html" target="_blank"><h4>¿Es Odoo realmente libre?</h4></a>
+                                        </div>
+                                        <div class="blog-meta">
+                                            <p class="blog-date">28 Oct 2022</p> /
+                                            <p class="blog-comment"><a href="">5 comentarios</a></p>
+                                        </div>
+                                        <div class="blog-desc">
+                                            <p>El software ERP libre más popular, Odoo, podría tener algún inconveniente en lo que a su licencia o precio se refiere...</p>
+                                        </div>
+                                        <div class="blog-author">
+                                            <p>por Luis</p>
+                                        </div>
+                                        <div class="blog-share-wrapper">
+                                            <a class="blog-share" href="https://es-es.facebook.com/" target="_blank">
+                                                <i class="fab fa-facebook-square"></i>
+                                            </a>
+                                            <a class="blog-share" href="https://twitter.com/?lang=es" target="_blank">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Blog Item -->
+                        </div>
+                        <!-- Fin de la primera fila de posts -->
+                        <!-- Segunda fila de posts -->
+                        <div class="row">
+                            <!-- Blog Item -->
+                            <div class="col-md-4 blog-item-wrapper" data-aos="fade-up">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <a href="posts/post4.html" target="_blank"><img src="img/zigbee.jpg" alt=""></a>
+                                    </div>
+                                    <div class="blog-text">
+                                        <div class="blog-tag">
+                                            <a href="posts/post4.html" target="_blank"><h6><small>SISTEMAS</small></h6></a>
+                                        </div>
+                                        <div class="blog-title">
+                                            <a href="posts/post4.html" target="_blank"><h4>¿Es Zigbee una buena solución para la industria 4.0?</h4></a>
+                                        </div>
+                                        <div class="blog-meta">
+                                            <p class="blog-date">4 Nov 2022</p> /
+                                            <p class="blog-comment"><a href="">6 comentarios</a></p>
+                                        </div>
+                                        <div class="blog-desc">
+                                            <p>Las telecomunicaciones en un área local en el sector industrial han sido resueltas mediante Zigbee, pero, ¿sigue siendo una opción válida durante la cuarta revolución industrial?</p>
+                                        </div>
+                                        <div class="blog-author">
+                                            <p>por Catalin</p>
+                                        </div>
+                                        <div class="blog-share-wrapper">
+                                            <a class="blog-share" href="https://es-es.facebook.com/" target="_blank">
+                                                <i class="fab fa-facebook-square"></i>
+                                            </a>
+                                            <a class="blog-share" href="https://twitter.com/?lang=es" target="_blank">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Blog Item -->
+                            <!-- Blog Item -->
+                            <div class="col-md-4 blog-item-wrapper" data-aos="fade-up" data-aos-delay="200">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <a href="posts/post5.html" target="_blank"><img src="img/grafana.jpg" alt=""></a>
+                                    </div>
+                                    <div class="blog-text">
+                                        <div class="blog-tag">
+                                            <a href="posts/post5.html" target="_blank"><h6><small>NOSOTROS</small></h6></a>
+                                        </div>
+                                        <div class="blog-title">
+                                            <a href="posts/post5.html"  target="_blank"><h4>Ahora ofrecemos Grafana</h4></a>
+                                        </div>
+                                        <div class="blog-meta">
+                                            <p class="blog-date">11 Nov 2022</p> /
+                                            <p class="blog-comment"><a href="">7 comentarios</a></p>
+                                        </div>
+                                        <div class="blog-desc">
+                                            <p>Hemos ampliado nuestra cartera de servicios, y ahora hacemos implantaciones de Grafana, el software líder en control de datos industriales.</p>
+                                        </div>
+                                        <div class="blog-author">
+                                            <p>por Omar</p>
+                                        </div>
+                                        <div class="blog-share-wrapper">
+                                            <a class="blog-share" href="https://es-es.facebook.com/" target="_blank">
+                                                <i class="fab fa-facebook-square"></i>
+                                            </a>
+                                            <a class="blog-share" href="https://twitter.com/?lang=es" target="_blank">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Blog Item -->
+                            <!-- Blog Item -->
+                            <div class="col-md-4 blog-item-wrapper" data-aos="fade-up" data-aos-delay="400">
+                                <div class="blog-item">
+                                    <div class="blog-img">
+                                        <a href="posts/post6.html" target="_blank"><img src="img/ticketbai.png" alt=""></a>
+                                    </div>
+                                    <div class="blog-text">
+                                        <div class="blog-tag">
+                                            <a href="posts/post6.html" target="_blank"><h6><small>ERP & BI</small></h6></a>
+                                        </div>
+                                        <div class="blog-title">
+                                            <a href="posts/post6.html" target="_blank"><h4>Lanzamos nuevo módulo TicketBAI para Odoo</h4></a>
+                                        </div>
+                                        <div class="blog-meta">
+                                            <p class="blog-date">17 Nov 2022</p> /
+                                            <p class="blog-comment"><a href="">8 comentarios</a></p>
+                                        </div>
+                                        <div class="blog-desc">
+                                            <p>Hemos desarrollado nuestro propio módulo de facturación garante ticketBAI para Odoo.</p>
+                                        </div>
+                                        <div class="blog-author">
+                                            <p>por Luis</p>
+                                        </div>
+                                        <div class="blog-share-wrapper">
+                                            <a class="blog-share" href="https://es-es.facebook.com/" target="_blank">
+                                                <i class="fab fa-facebook-square"></i>
+                                            </a>
+                                            <a class="blog-share" href="https://twitter.com/?lang=es" target="_blank">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Blog Item -->
+                        </div>
+                        <!-- Fin de la segunda fila de posts -->
+                    </div>
+                    <!-- End of Blog -->
+                </div>
             </div>
+        </div>
+    </section>
+    <!-- End of Portfolio Section -->	<!-- Client Section -->
+    <section id="client" class="overlay bg-fixed" style="background-image: url(img/bg.jpg);">
+        <div class="container">
+            <div class="section-content" data-aos="fade-up">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <!-- Section Title -->
+                        <div class="title-wrap mb-5">
+                            <h2 class="mb-2">BizLoc consultores tecnológicos</h2>
+                            <p>Your <em>business</em> data safely <em>locked</em>!</p>
+                        </div>
+                        <!-- End of Section Title -->
+                    </div>
+                    <!-- Client Holder -->
+                    <div class="col-md-12 client-holder">
+                        <div class="client-slider owl-carousel">
+                            <div class="client-item">
+                                <img class="img-responsive" src="img/logo.png" alt=" ">
+                            </div>
+                            <div class="client-item">
+                                <img class="img-responsive" src="img/logo.png" alt=" ">
+                            </div>
+                            <div class="client-item">
+                                <img class="img-responsive" src="img/logo.png" alt=" ">
+                            </div>
+                            <div class="client-item">
+                                <img class="img-responsive" src="img/logo.png" alt=" ">
+                            </div>
+                            <div class="client-item">
+                                <img class="img-responsive" src="img/logo.png" alt=" ">
+                            </div>
+                            <div class="client-item">
+                                <img class="img-responsive" src="img/logo.png" alt=" ">
+                            </div>
+                        </div>
+                        <!-- End of Client Holder -->
+                    </div>
+                </div>
+            </div>
+    </section>
+    </div>
+    <!-- End of Features Section-->
+    <footer class="mastfoot my-3">
+        <div class="inner container">
             <div class="row">
-                <!-- Blog -->
-                <div class="col-md-12 blog-holder">
-                    <!-- Primera fila de posts -->
-                    <div class="row">
-                        <!-- Blog Item -->
-                        <div class="col-md-4 blog-item-wrapper" data-aos="fade-up">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <a href="posts/post1.html" target="_blank"><img src="img/nuestra-oficina.jpeg" alt=""></a>
-                                </div>
-                                <div class="blog-text">
-                                    <div class="blog-tag">
-                                        <a href="posts/post1.html" target="_blank"><h6><small>NOSOTROS</small></h6></a>
-                                    </div>
-                                    <div class="blog-title">
-                                        <a href="posts/post1.html" target="_blank"><h4>Fundamos BizLoc</h4></a>
-                                    </div>
-                                    <div class="blog-meta">
-                                        <p class="blog-date">14 Oct 2022</p> /
-                                        <p class="blog-comment"><a href="">3 comentarios</a></p>
-                                    </div>
-                                    <div class="blog-desc">
-                                        <p>Nos complace anunciar la fundación de una nueva empresa en Vitoria-Gasteiz: BizLoc, consultora en digitalización.</p>
-                                    </div>
-                                    <div class="blog-author">
-                                        <p>por Catalin</p>
-                                    </div>
-                                    <div class="blog-share-wrapper">
-                                        <a class="blog-share" href="https://es-es.facebook.com/" target="_blank">
-                                            <i class="fab fa-facebook-square"></i>
-                                        </a>
-                                        <a class="blog-share" href="https://twitter.com/?lang=es" target="_blank">
-                                            <i class="fab fa-twitter-square"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Blog Item -->
-                        <!-- Blog Item -->
-                        <div class="col-md-4 blog-item-wrapper" data-aos="fade-up" data-aos-delay="200">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <a href="posts/post2.html" target="_blank"><img src="img/redhat.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-text">
-                                    <div class="blog-tag">
-                                        <a href="posts/post2.html" target="_blank"><h6><small>SISTEMAS</small></h6></a>
-                                    </div>
-                                    <div class="blog-title">
-                                        <a href="posts/post2.html" target="_blank"><h4>¿Linux DEB o RPM?</h4></a>
-                                    </div>
-                                    <div class="blog-meta">
-                                        <p class="blog-date">21 Oct 2022</p> /
-                                        <p class="blog-comment"><a href="">4 comentarios</a></p>
-                                    </div>
-                                    <div class="blog-desc">
-                                        <p>La subfamilia de sistemas operativos RPM es líder de mercado en algunos tipos de servidores. ¿Vale la pena cambiarse desde la subfamilia DEB?</p>
-                                    </div>
-                                    <div class="blog-author">
-                                        <p>por Omar</p>
-                                    </div>
-                                    <div class="blog-share-wrapper">
-                                        <a class="blog-share" href="https://es-es.facebook.com/" target="_blank">
-                                            <i class="fab fa-facebook-square"></i>
-                                        </a>
-                                        <a class="blog-share" href="https://twitter.com/?lang=es" target="_blank">
-                                            <i class="fab fa-twitter-square"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Blog Item -->
-                        <!-- Blog Item -->
-                        <div class="col-md-4 blog-item-wrapper" data-aos="fade-up" data-aos-delay="400">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <a href="posts/post3.html" target="_blank"><img src="img/odoo.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-text">
-                                    <div class="blog-tag">
-                                        <a href="posts/post3.html" target="_blank"><h6><small>ERP & BI</small></h6></a>
-                                    </div>
-                                    <div class="blog-title">
-                                        <a href="posts/post3.html" target="_blank"><h4>¿Es Odoo realmente libre?</h4></a>
-                                    </div>
-                                    <div class="blog-meta">
-                                        <p class="blog-date">28 Oct 2022</p> /
-                                        <p class="blog-comment"><a href="">5 comentarios</a></p>
-                                    </div>
-                                    <div class="blog-desc">
-                                        <p>El software ERP libre más popular, Odoo, podría tener algún inconveniente en lo que a su licencia o precio se refiere...</p>
-                                    </div>
-                                    <div class="blog-author">
-                                        <p>por Luis</p>
-                                    </div>
-                                    <div class="blog-share-wrapper">
-                                        <a class="blog-share" href="https://es-es.facebook.com/" target="_blank">
-                                            <i class="fab fa-facebook-square"></i>
-                                        </a>
-                                        <a class="blog-share" href="https://twitter.com/?lang=es" target="_blank">
-                                            <i class="fab fa-twitter-square"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Blog Item -->
-                    </div>
-                    <!-- Fin de la primera fila de posts -->
-                    <!-- Segunda fila de posts -->
-                    <div class="row">
-                        <!-- Blog Item -->
-                        <div class="col-md-4 blog-item-wrapper" data-aos="fade-up">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <a href="posts/post4.html" target="_blank"><img src="img/zigbee.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-text">
-                                    <div class="blog-tag">
-                                        <a href="posts/post4.html" target="_blank"><h6><small>SISTEMAS</small></h6></a>
-                                    </div>
-                                    <div class="blog-title">
-                                        <a href="posts/post4.html" target="_blank"><h4>¿Es Zigbee una buena solución para la industria 4.0?</h4></a>
-                                    </div>
-                                    <div class="blog-meta">
-                                        <p class="blog-date">4 Nov 2022</p> /
-                                        <p class="blog-comment"><a href="">6 comentarios</a></p>
-                                    </div>
-                                    <div class="blog-desc">
-                                        <p>Las telecomunicaciones en un área local en el sector industrial han sido resueltas mediante Zigbee, pero, ¿sigue siendo una opción válida durante la cuarta revolución industrial?</p>
-                                    </div>
-                                    <div class="blog-author">
-                                        <p>por Catalin</p>
-                                    </div>
-                                    <div class="blog-share-wrapper">
-                                        <a class="blog-share" href="https://es-es.facebook.com/" target="_blank">
-                                            <i class="fab fa-facebook-square"></i>
-                                        </a>
-                                        <a class="blog-share" href="https://twitter.com/?lang=es" target="_blank">
-                                            <i class="fab fa-twitter-square"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Blog Item -->
-                        <!-- Blog Item -->
-                        <div class="col-md-4 blog-item-wrapper" data-aos="fade-up" data-aos-delay="200">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <a href="posts/post5.html" target="_blank"><img src="img/grafana.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-text">
-                                    <div class="blog-tag">
-                                        <a href="posts/post5.html" target="_blank"><h6><small>NOSOTROS</small></h6></a>
-                                    </div>
-                                    <div class="blog-title">
-                                        <a href="posts/post5.html"  target="_blank"><h4>Ahora ofrecemos Grafana</h4></a>
-                                    </div>
-                                    <div class="blog-meta">
-                                        <p class="blog-date">11 Nov 2022</p> /
-                                        <p class="blog-comment"><a href="">7 comentarios</a></p>
-                                    </div>
-                                    <div class="blog-desc">
-                                        <p>Hemos ampliado nuestra cartera de servicios, y ahora hacemos implantaciones de Grafana, el software líder en control de datos industriales.</p>
-                                    </div>
-                                    <div class="blog-author">
-                                        <p>por Omar</p>
-                                    </div>
-                                    <div class="blog-share-wrapper">
-                                        <a class="blog-share" href="https://es-es.facebook.com/" target="_blank">
-                                            <i class="fab fa-facebook-square"></i>
-                                        </a>
-                                        <a class="blog-share" href="https://twitter.com/?lang=es" target="_blank">
-                                            <i class="fab fa-twitter-square"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Blog Item -->
-                        <!-- Blog Item -->
-                        <div class="col-md-4 blog-item-wrapper" data-aos="fade-up" data-aos-delay="400">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <a href="posts/post6.html" target="_blank"><img src="img/ticketbai.png" alt=""></a>
-                                </div>
-                                <div class="blog-text">
-                                    <div class="blog-tag">
-                                        <a href="posts/post6.html" target="_blank"><h6><small>ERP & BI</small></h6></a>
-                                    </div>
-                                    <div class="blog-title">
-                                        <a href="posts/post6.html" target="_blank"><h4>Lanzamos nuevo módulo TicketBAI para Odoo</h4></a>
-                                    </div>
-                                    <div class="blog-meta">
-                                        <p class="blog-date">17 Nov 2022</p> /
-                                        <p class="blog-comment"><a href="">8 comentarios</a></p>
-                                    </div>
-                                    <div class="blog-desc">
-                                        <p>Hemos desarrollado nuestro propio módulo de facturación garante ticketBAI para Odoo.</p>
-                                    </div>
-                                    <div class="blog-author">
-                                        <p>por Luis</p>
-                                    </div>
-                                    <div class="blog-share-wrapper">
-                                        <a class="blog-share" href="https://es-es.facebook.com/" target="_blank">
-                                            <i class="fab fa-facebook-square"></i>
-                                        </a>
-                                        <a class="blog-share" href="https://twitter.com/?lang=es" target="_blank">
-                                            <i class="fab fa-twitter-square"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Blog Item -->
-                    </div>
-                    <!-- Fin de la segunda fila de posts -->
+                <div class="col-lg-4 col-md-12 d-flex align-items-center">
                 </div>
-                <!-- End of Blog -->
+                <div class="col-lg-4 col-md-12">
+                    <nav class="nav nav-mastfoot justify-content-center">
+                        <a class="nav-link" href="https://es-es.facebook.com/">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="nav-link" href="https://twitter.com/?lang=es">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="nav-link" href="https://www.instagram.com/accounts/login/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="nav-link" href="https://es.linkedin.com/?src=go-pa&trk=sem-ga_campid=18146679037_asid=140850334975_crid=619061882347_kw=linkedin_d=c_tid=kwd-148086543_n=g_mt=e_geo=1005547_slid=&mcid=6968657504633266178&cid=&gclid=EAIaIQobChMI3tmZ69ff-gIVYxkGAB2MigsSEAAYASAAEgJNV_D_BwE&gclsrc=aw.ds">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a class="nav-link" href="https://www.youtube.com/">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </nav>
+                </div>
+                
             </div>
         </div>
-    </div>
-</section>
-<!-- End of Portfolio Section -->	<!-- Client Section -->
-<section id="client" class="overlay bg-fixed" style="background-image: url(img/bg.jpg);">
-    <div class="container">
-        <div class="section-content" data-aos="fade-up">
-            <div class="row ">
-                <div class="col-md-12">
-                    <!-- Section Title -->
-                    <div class="title-wrap mb-5">
-                        <h2 class="mb-2">BizLoc consultores tecnológicos</h2>
-                        <p>Your <em>business</em> data safely <em>locked</em>!</p>
-                    </div>
-                    <!-- End of Section Title -->
-                </div>
-                <!-- Client Holder -->
-                <div class="col-md-12 client-holder">
-                    <div class="client-slider owl-carousel">
-                        <div class="client-item">
-                            <img class="img-responsive" src="img/logo.png" alt=" ">
-                        </div>
-                        <div class="client-item">
-                            <img class="img-responsive" src="img/logo.png" alt=" ">
-                        </div>
-                        <div class="client-item">
-                            <img class="img-responsive" src="img/logo.png" alt=" ">
-                        </div>
-                        <div class="client-item">
-                            <img class="img-responsive" src="img/logo.png" alt=" ">
-                        </div>
-                        <div class="client-item">
-                            <img class="img-responsive" src="img/logo.png" alt=" ">
-                        </div>
-                        <div class="client-item">
-                            <img class="img-responsive" src="img/logo.png" alt=" ">
-                        </div>
-                    </div>
-                    <!-- End of Client Holder -->
-                </div>
-            </div>
-        </div>
-</section>
-<!-- End of Features Section--></div>
-<footer class="mastfoot my-3">
-    <div class="inner container">
-         <div class="row">
-         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
-         		
-         	</div>
-           
-            <div class="col-lg-4 col-md-12">
-            	<nav class="nav nav-mastfoot justify-content-center">
-	                <a class="nav-link" href="https://es-es.facebook.com/">
-	                	<i class="fab fa-facebook-f"></i>
-	                </a>
-	                <a class="nav-link" href="https://twitter.com/?lang=es">
-	                	<i class="fab fa-twitter"></i>
-	                </a>
-	                <a class="nav-link" href="https://www.instagram.com/accounts/login/">
-	                	<i class="fab fa-instagram"></i>
-	                </a>
-	                <a class="nav-link" href="https://es.linkedin.com/?src=go-pa&trk=sem-ga_campid=18146679037_asid=140850334975_crid=619061882347_kw=linkedin_d=c_tid=kwd-148086543_n=g_mt=e_geo=1005547_slid=&mcid=6968657504633266178&cid=&gclid=EAIaIQobChMI3tmZ69ff-gIVYxkGAB2MigsSEAAYASAAEgJNV_D_BwE&gclsrc=aw.ds">
-	                	<i class="fab fa-linkedin"></i>
-	                </a>
-	                <a class="nav-link" href="https://www.youtube.com/">
-	                	<i class="fab fa-youtube"></i>
-	                </a>
-	            </nav>
-            </div>
-            
-        </div>
-    </div>
-</footer>
-<a href="#arriba"><img src="img/flecha.png" alt="Flecha Arriba" id="flechaSubir"></a>	
-<!-- External JS -->
+    </footer>
+
+    <a href="#arriba"><img src="img/flecha.png" alt="Flecha Arriba" id="flechaSubir"></a>
+    
+    <!-- External JS -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 	<script src="vendor/bootstrap/popper.min.js"></script>
 	<script src="vendor/bootstrap/bootstrap.min.js"></script>
